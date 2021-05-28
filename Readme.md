@@ -26,6 +26,13 @@ Back end:
 
 ## Features
 
+<details>
+    <summary>Examples of short links app</summary>
+        <img src="./short-link-entery.png"/>"
+        <img src="./short-link-error.png"/>"
+        <img src="./short-link-success.png"/>"
+</details>
+
 - [ ] Enter URL prefixed with (http(s)://) in the input text box, click Save URL to save the URL.  The list will be updated with the new entry or an error will be presented.
 - [ ] Clicking on the *bold* url link will open another tab loading the URL.  
 - [ ] Clicking on the red 'X' will delete the item, and the list will refresh

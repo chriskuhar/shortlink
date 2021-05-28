@@ -1,0 +1,81 @@
+$fontSizeReg: small;
+$colorBold: #2e2e35;
+$color: #636876;
+$bgcolor: #ffffff;
+$white: #ffffff;
+$borderColor: #c0c0c0;
+
+.main {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  min-height: 500em;
+  color: $color;
+  background-color: $bgcolor;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: calc(100% - 1em);
+  min-height: 5em;
+  min-width: 35em;
+  margin: 1em;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: $bgcolor;
+  border: 1px $borderColor solid; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  min-width: 50em;
+  min-height: 50em;
+  color: $color;
+  background-color: $bgcolor;
+  display: flex;
+  flex-direction: row;
+  background-color: $bgcolor;
+}
+
+a:link, 
+a:visited,
+a:active
+{
+  color: $color;
+  text-decoration: none;
+}
+a:hover
+{
+  color: $colorBold;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.leftNav {
+  min-width: 11em;
+  min-height: 50em;
+  font-size: $fontSizeReg;
+  color: $color;
+  background-color: $white;
+  padding: .1em;
+  border-right: 1px $borderColor solid; 
+}
+
+.theater {
+  width: 50%;
+  margin: auto;
+  min-height: 50em;
+  color: $color;
+  background-color: $bgcolor;
+  padding: 1em;
+}
